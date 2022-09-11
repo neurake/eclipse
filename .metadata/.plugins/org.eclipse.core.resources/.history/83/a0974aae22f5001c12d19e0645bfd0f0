@@ -1,0 +1,39 @@
+package com.myrun;
+
+import java.util.Scanner;
+
+public class SaiExam {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println( "enter string");
+		String s=sc.nextLine();
+		char arr[]=s.toCharArray();
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			char ch=arr[i];
+			System.out.println(ch );
+			int a=0;
+			int b=1;
+			int n=ch-64; 
+			System.out.println(n);
+			for(int j=2;j<n;j++)
+			{
+				int c=a+b;
+				a=b;
+				b=c;
+				sum=sum+c;
+				
+			}
+			
+		}
+		
+		
+		System.out.println(sum);
+		
+		
+	}
+
+}
+

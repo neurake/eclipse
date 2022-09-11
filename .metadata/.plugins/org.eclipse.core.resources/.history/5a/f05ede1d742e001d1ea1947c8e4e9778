@@ -1,0 +1,68 @@
+package com.myrun;
+
+import java.util.Scanner;
+
+public class PBLPrime {
+
+	public static void main(String[] args) {
+		Scanner sc=new  Scanner(System.in);
+		System.out.println("Enter no of array elements:");
+		int input2=sc.nextInt();
+		int arr[]=new int[input2];
+		System.out.println("Enter array:");
+		for(int i=0;i<input2;i++)
+		{
+			System.out.println("Enter element:"+(i+1)+":");
+			arr[i]=sc.nextInt();
+			
+		}
+		int primeArray[]=new int[1000];
+		int count=0;
+		for(int i=2;i<7920;i++)
+		{
+			
+			int temp=i;
+			int flag=0;
+			for(int j=2;j<temp;j++)
+			{
+				if(temp%j==0)
+				{
+					flag=1;
+				}
+			}
+			if(flag==0)
+			{
+				primeArray[count]=temp;
+				count++;
+			}
+			
+		}
+		int sum=0;
+		int indexcount=0;
+		for(int i=0;i<primeArray.length;i++)
+		{
+			//System.out.println(primeArray[i]);
+			if(primeArray[i]<=input2)
+				indexcount++;
+			else
+				break;
+			
+		}
+		if(indexcount==0)
+			System.out.println(0);
+		else 
+		{
+			
+			for(int i=0;i<indexcount;i++)
+			{
+				sum=sum+arr[primeArray[i]];
+			}
+			
+			System.out.println(sum);
+			
+		}
+		
+
+	}
+
+}

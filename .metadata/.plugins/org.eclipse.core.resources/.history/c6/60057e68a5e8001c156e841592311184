@@ -1,0 +1,21 @@
+package com.demo.practice;
+import java.io.*;
+import java.util.*;
+
+public class UserMainCode {
+	public static String returnTheModifiedSentence(String input1)
+	{
+		return "ABC";
+	}
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String");
+		String s=sc.nextLine();
+		String s1=returnTheModifiedSentence(s);
+		System.out.println(s1);
+		
+	}
+
+}
+

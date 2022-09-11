@@ -1,0 +1,51 @@
+package com.myrun;
+
+import java.util.Scanner;
+
+public class PBLEvenSum {
+	
+	public static void main(String[] args) {
+		Scanner sc=new  Scanner(System.in);
+		System.out.println("first no:");
+		int input1=sc.nextInt();
+		System.out.println("Second no:");
+		int input2=sc.nextInt();
+		System.out.println("Third no:");
+		int input3=sc.nextInt();
+		System.out.println("forth no:");
+		int input4=sc.nextInt();
+		
+		int arr1[]= new int[4];
+		int arr2[]= new int[4];
+		int arr3[]= new int[4];
+		int arr[]= {input1,input2,input3};
+		int arrno[]=new int[12];
+		int count=0;
+		int evensum=0;
+		int oddsum=0;
+		for(int i=0;i<3;i++)
+		{
+			int temp=arr[i];
+			while(temp>0)	
+			{
+				int rem=temp%10;
+				if(rem%2==0)
+					evensum=evensum+rem;
+				else
+					oddsum=oddsum+rem;
+				arrno[count]=rem;
+				
+				temp=temp/10;
+				count++;
+			}
+		}
+		if(input4%2==0)
+		System.out.println(evensum);
+		else
+			System.out.println(oddsum);
+			
+		}
+		
+	
+
+}

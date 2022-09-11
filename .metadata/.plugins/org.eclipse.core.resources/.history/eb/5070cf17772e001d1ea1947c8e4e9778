@@ -1,0 +1,41 @@
+package com.myrun;
+
+import java.util.Scanner;
+
+public class FirstRepeat {
+
+	public static void main(String[] args) {
+		Scanner sc=new  Scanner(System.in);
+		System.out.println("Enter no of array elements:");
+		int input2=sc.nextInt();
+		int input1[]=new int[input2];
+		System.out.println("Enter array:");
+		for(int i=0;i<input2;i++)
+		{
+			System.out.println("Enter element:"+(i+1)+":");
+			input1[i]=sc.nextInt();
+			
+		}
+		int no;
+		for(int i=0;i<input2-1;i++)
+		{
+			int temp=input1[i];
+			for(int j=i+1;j<input2;j++)
+			{
+				if(input1[j]==temp)
+				{
+					
+					break;
+				}
+			}
+			if(temp!=0)
+			{
+				no=temp;
+				break;
+			}
+			
+		}
+		System.out.println(no);
+	}
+
+}

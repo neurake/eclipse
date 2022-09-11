@@ -1,0 +1,83 @@
+package com.demo.practice;
+
+
+
+
+import java.util.*; 
+
+
+
+
+public class HelloWorld {
+	
+	
+	
+	
+
+	
+	    
+	    static void descOrder(char[] s)
+	    {
+	        Arrays.sort(s);
+	        reverse(s);
+	    }
+	 
+	    static void reverse(char[] a)
+	    {
+	        int i, n = a.length;
+	        char t;
+	        for (i = 0; i < n / 2; i++)
+	        {
+	            t = a[i];
+	            a[i] = a[n - i - 1];
+	            a[n - i - 1] = t;
+	        }
+	    }
+	    
+	    static String removeDuplicate(char str[], int length)   
+	    {   
+	        int index = 0;  
+	        for (int i = 0; i < length; i++)   
+	        {   
+	            int j;   
+	            for (j = 0; j < i; j++)    
+	            {   
+	                if (str[i] == str[j])   
+	                {   
+	                    break;   
+	                }   
+	            }   
+	    
+	            if (j == i)    
+	            {   
+	                str[index++] = str[i];   
+	            }   
+	        }   
+	        return String.valueOf(Arrays.copyOf(str, index));
+	    } 
+	    
+	    public void modifyString(String a, String b){
+	        
+	        //Concatenate String
+	        String concanatedString = a.concat(b);
+	        char str[] = concanatedString.toCharArray();  
+	        int len = str.length;
+	        
+	        //Remove Duplicate
+	        String uniqueString = HelloWorld.removeDuplicate(str,len);
+	        
+	        //order Descending string
+	        char[] s = uniqueString.toCharArray();
+	        descOrder(s);
+	        System.out.println(s);
+	    }
+	    
+	    public static void main(String[] args) {
+	        //System.out.println("Hello, World!");
+	        new HelloWorld().modifyString("fruits","are good");
+	    }
+	
+
+	
+
+}

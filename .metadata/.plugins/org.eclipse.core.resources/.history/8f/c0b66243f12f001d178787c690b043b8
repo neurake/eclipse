@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Septa | Online Book Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+   <div class="header">
+    <div class="container">
+        <?php include'basic/nav.php' ?>
+        <div class="row">
+            <div class="col-2">
+                <h1>Online Book Store</h1>
+                <p>Collect your favourite books and order them at your doorsteps
+                </p>
+                <a href="products.php" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/Bookshelf.jfif">
+            </div>
+
+        </div>
+    </div>
+</div> 
+<!-------featured categories--------->
+    <div class="categories">
+       <div class="small-container">
+          
+        <div class="row">
+            <div class="col-3">
+                <img src="images/genda.png" >
+            </div>
+            <div class="col-3">
+                <img src="images/python.png" >
+            </div>
+            <div class="col-3">
+                <img src="images/script.png" >
+            </div>
+        </div>
+       </div>
+
+        
+    </div>
+    <!-------featured   products--------->
+    <div class="small-container">
+        <h2 class="title">Featured Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="Bookdetails.php"><img src="images/genda.png" ></a>
+                <h4>Jva script Books</h4>
+                <div class="rating"> 
+                    <!--give rating icon here-->
+                </div>
+                <p>$20.00</p>
+            </div>
+            
+                <div class="col-4">
+                    <img src="images/genda.png" >
+                    <h4>Jva script Books</h4>
+                    <div class="rating"> 
+                        <!--give rating icon here-->
+                    </div>
+                    <p>$20.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/genda.png" >
+                    <h4>Jva script Books</h4>
+                    <div class="rating"> 
+                        <!--give rating icon here-->
+                    </div>
+                    <p>$20.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/genda.png" >
+                    <h4>Jva script Books</h4>
+                    <div class="rating"> 
+                        <!--give rating icon here-->
+                    </div>
+                    <p>$20.00</p>
+                </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                    
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <h2 class="title">Best Sellers Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>Jva script Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                    
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>Jva script Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                    
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/genda.png" >
+                <h4>C Programming Books</h4>
+                <div class="rating"> 
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+    </div>
+     <!-------offers--------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/swan.png" alt="">
+                </div>
+                <div class="col-2">
+                    <p style="padding-left: 20px;">Exclusively on sepa store</p>
+                    <h1 style="padding-left: 20px;">AmishBooks</h1>
+                    <p style="padding-left: 20px;"> style="padding: 20px;">
+                        this is the description of Amish 
+                        books exclusively available on 
+                        the septabooks store.
+                    </p>
+                    <a  href=""class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- testimonial user rating-------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <!--quote icon here-->
+                    <p> <span >&#8594;</span>I watched your whole vedio nd implemented it .
+                         It was very easy to understand . Folks those
+                          who are giving negative comments  are 
+                          oversmart ass .. atlest he is taking some
+                           efforts to teach others. Thanks Man you are doing
+                         a great job keep posting new vedios </p>
+                         <img src="images/elon.jpg"  >
+                         <h3>Elon Musk</h3>
+                </div>
+                <div class="col-3">
+                    <!--quote icon here-->
+                    <p>I watched your whole vedio nd implemented it .
+                         It was very easy to understand . Folks those
+                          who are giving negative comments  are 
+                          oversmart ass .. atlest he is taking some
+                           efforts to teach others. Thanks Man you are doing
+                         a great job keep posting new vedios </p>
+                         <img src="images/obama.jpg" >
+                         <h3>Barak Obama</h3>
+                </div>
+                <div class="col-3">
+                    <!--quote icon here-->
+                    <p>"I watched your whole vedio nd implemented it .
+                         It was very easy to understand . Folks those
+                          who are giving negative comments  are 
+                          oversmart ass .. atlest he is taking some
+                           efforts to teach others. Thanks Man you are doing
+                         a great job keep posting new vedios </p>
+                         <img src="images/sundar.jpg" >
+                         <h3>Sundar Pichai</h3>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Publishers-->
+   
+    <div class="brands">
+        <div class="small-container">
+            <marquee  >
+            <div class="row">
+               
+                <div class="col-5">
+                    <img src="images/Logo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" >
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" >
+                </div>
+
+            
+            </div>
+        </marquee>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <?php include'basic/footer.php' ?>
+    <!-----js for toggle menu ------->
+    <script>
+        var MenuItems =document.getElementById("MenuItems");
+        MenuItems.style.maxHeight ="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+            else
+                {
+                    MenuItems.style.maxHeight="0px";
+                 }
+        }
+    </script>
+</body>
+</html>

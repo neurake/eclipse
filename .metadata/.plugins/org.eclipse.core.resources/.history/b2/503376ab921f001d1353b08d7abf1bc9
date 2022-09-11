@@ -1,0 +1,31 @@
+package com.myrun;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class PBL5MYHashSet {
+
+	
+	
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no1:");
+		int input1=sc.nextInt();
+		System.out.println("Enter the n2:");
+		int input2=sc.nextInt();
+		System.out.println("Enter the no3:");
+		int input3=sc.nextInt();
+		System.out.println("Enter the no4:");
+		int input4=sc.nextInt();
+		System.out.println("Enter the no5:");
+		int input5=sc.nextInt();
+		
+		int t1=input1;
+		int t2=input2;
+		int t3=input3;
+		int t4=input4;
+		int t5=input5;
+		
+		
+}

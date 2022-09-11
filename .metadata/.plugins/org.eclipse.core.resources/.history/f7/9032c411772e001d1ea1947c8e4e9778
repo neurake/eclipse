@@ -1,0 +1,10 @@
+package com.myrun;
+
+public class FirstRepeat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

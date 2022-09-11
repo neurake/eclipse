@@ -1,0 +1,18 @@
+package com.myrun;
+
+import java.util.Scanner;
+
+public class PBLPrime {
+
+	public static void main(String[] args) {
+		Scanner sc=new  Scanner(System.in);
+		System.out.println("first no:");
+		int input1=sc.nextInt();
+		System.out.println("Second no:");
+		int input2=sc.nextInt();
+		System.out.println("Third no:");
+		int input3=sc.nextInt();
+		
+	}
+
+}

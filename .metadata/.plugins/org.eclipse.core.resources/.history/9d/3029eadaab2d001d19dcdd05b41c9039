@@ -1,0 +1,17 @@
+package com.threads;
+
+public class DemoThread {
+
+	public static void main(String[] args) {
+		System.out.println("Main thread started");
+		ThreadA t1=new ThreadA();
+		ThreadB t2=new ThreadB();
+		ThreadC t3=new ThreadC();
+		t1.start();
+		t2.start();
+		t3.start();
+		System.out.println("main thread completed");
+
+	}
+
+}
